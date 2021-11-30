@@ -1,0 +1,15 @@
+(defn prime-or-not
+  [value i]
+  (if (< value 2)
+    (println "Not prime number")
+    (if (< i value)
+      (if (= (mod value i) 0)
+        (println "Not prime number")
+        (prime-or-not value (inc i))
+        )
+      (println "prime number")
+      ))
+  (int value)
+  )
+
+(prime-or-not 1 2)
