@@ -1,0 +1,7 @@
+
+(defn wholesquare [a b] 
+	(+ (* a a) (* b b) (* 2 a b)) ) 
+)
+
+(wholesquare 2 2)
+(wholesquare 2 3)

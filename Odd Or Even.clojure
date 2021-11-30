@@ -1,0 +1,6 @@
+(def num 1)
+
+(if (= (mod num 2) 0 )
+  "EVEN"
+  "ODD"
+  )

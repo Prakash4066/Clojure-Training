@@ -1,0 +1,7 @@
+(defn a-square-plus-b-square [a b]
+  (+ (* a a) (* b b)))
+
+(defn square-root [c d]
+  (Math/sqrt (a-square-plus-b-square c d)))
+  
+(square-root 2 2)

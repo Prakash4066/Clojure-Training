@@ -1,0 +1,6 @@
+
+
+(defn Ignore-case [string1 string2]
+  (= (clojure.string/lower-case string1)  (clojure.string/lower-case string2))
+  )
+(Ignore-case "hello" "HELLO")
